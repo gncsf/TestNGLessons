@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="c11"><!--sadece c11 class ını kapsar  -->
+        <classes><!--calismak istedigimiz class ları ekleriz -->
+            <class name="Clarusway.test.C11_XMLFilesHierarchy"></class>
+        </classes>
+
+    </test>
+    <test name="c02">
+        <classes><!--calismak istedigimiz class ları ekleriz -->
+            <class name="Clarusway.test.C02_Priority"></class>
+        </classes>
+
+    </test>
+    <test name="c10">
+        <classes><!--calismak istedigimiz class ları ekleriz -->
+            <class name="Clarusway.test.C10_SoftAssertion"></class>
+        </classes>
+
+    </test>
+
+</suite>
