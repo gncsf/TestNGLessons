@@ -1,3 +1,4 @@
+
 package Clarusway.bazarLocaters;
 
 import org.openqa.selenium.WebElement;
@@ -56,6 +57,16 @@ public class HomePage {
     @FindBy(xpath = "//img[@alt='Pickbazar']")
     public WebElement pickBazarButon;
 
+    @FindBy(xpath = "//a[.='Offers']")// ana ekranda Offers Butonuna tiklar
+    public WebElement OffersButon;
+
+    @FindBy(xpath = "//a[.='FAQ']")// ana ekranda FAQ Butonuna tiklar
+    public WebElement FAQButon;
+
+    @FindBy(xpath = "//a[.='FAQ']")// Ana sayfada "Shelf" dropdown menüsüne gidilir.
+    public WebElement ShelfButon;
+
+
 
 
 
@@ -65,3 +76,5 @@ public class HomePage {
 
 
 }
+
+

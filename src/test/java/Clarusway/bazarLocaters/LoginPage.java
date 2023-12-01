@@ -24,6 +24,9 @@ public class LoginPage {
     public WebElement loginButton;
     @FindBy(xpath = "//button[.='Login with Google']")// login ekranı google login olma butonu
     public WebElement loginWithGoogleButton;
+    @FindBy(xpath = "//body[.='Internal Server Error']")// login ekranı google login olma hata ekranı
+    public WebElement loginWithGoogleButtonFail;
+
     @FindBy(xpath = "//button[.='Login with Mobile number']")// login ekranı numara ile login olma butonu
     public WebElement loginWithNumberButton;
     @FindBy(xpath = "//img[@alt='user name']")// login olduktan sonra gelen kullanıcı resmi
